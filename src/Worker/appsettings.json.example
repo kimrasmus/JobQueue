@@ -1,0 +1,17 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Error",
+      "Microsoft.AspNetCore": "Error"
+    }
+  },
+    "QueueWorkers": [
+    { "QueueId": 1, "Concurrency": 8 },
+    { "QueueId": 2, "Concurrency": 8 },
+    { "QueueId": 3, "Concurrency": 8 }
+  ],
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost,1433;Database=XXXXXXXXXX;User Id=XXXXXXXXX;Password=XXXXXXXXX;Encrypt=True;TrustServerCertificate=True"
+  }
+}
